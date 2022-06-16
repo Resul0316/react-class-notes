@@ -8,6 +8,7 @@ function App() {
         img="https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947__480.jpg"
         tel="55555555"
       />
+    
       <Person
         name="Mehmet baki"
         img="https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947__480.jpg"
