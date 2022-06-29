@@ -3,11 +3,6 @@ import React, { Component } from "react";
 const pStyle = {
   padding: "1rem",
   textAlign: "center",
-  
-  
-  
-  
-  
   backgroundColor: "black",
   color: "white",
 };
