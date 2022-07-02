@@ -39,3 +39,7 @@ export default counterReducer;
 // 4)Combine islemini yaptiktan sonra App.js veya index.js(baslangicta olan) icinde hangi componenetlarda kullanacaksan onlari sarmallama!
 // 5) index.js icerine provider'i import et ve componentlari sarmalla! 
 // 6)  <Provider store={store}>  --> const { persistor, store } = configureStore() --> Burada providerin icerisinde store' u cagiriyoruz. Yani store bizim redux closorunun icerisinde olusturdugumuz index.js klosorunun icerisindeki fonksiyon!
+// 7) Simdi reducerimizi olusturduk ve consume etme kismina geldik!
+// 8)Counter componetinin icerisine gidiyoruz ve orada useDispatch ve useSelectoru cagiriyoruz
+// 9) useSelector sayasinde store da olusturgugumuz bir state i alabiliriz! Bizim sadece 1 tane counterimiz var --> o da counter. Onu useSelector ile istedigimiz bir component'in icinde cagirip kullanabiliririz!
+//10) Su sekilde yapabiliriz --> const {counter} = useSelector((state) => state.counterReducer)
