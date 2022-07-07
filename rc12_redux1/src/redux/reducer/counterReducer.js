@@ -43,3 +43,5 @@ export default counterReducer;
 // 8)Counter componetinin icerisine gidiyoruz ve orada useDispatch ve useSelectoru cagiriyoruz
 // 9) useSelector sayasinde store da olusturgugumuz bir state i alabiliriz! Bizim sadece 1 tane counterimiz var --> o da counter. Onu useSelector ile istedigimiz bir component'in icinde cagirip kullanabiliririz!
 //10) Su sekilde yapabiliriz --> const {counter} = useSelector((state) => state.counterReducer)
+
+
