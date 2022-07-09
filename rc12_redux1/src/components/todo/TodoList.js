@@ -10,8 +10,6 @@ const TodoList = () => {
   const handleClearList = () => {
     dispatch(clearTodoList());
   };
-
-  
   
   return (
     <div>
